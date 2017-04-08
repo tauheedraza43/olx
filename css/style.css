@@ -1,0 +1,653 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+span{
+    color:blue;
+    text-decoration: none;
+}
+span:hover{
+    color: #FF8300;
+    cursor: pointer;
+}
+
+.main-logo{
+    height: 80px;
+    width: 70px;
+    text-align: center;
+    font-weight: bold;
+    float: left;
+    }
+.main-logo > a > img{
+    height: 75%;
+    width: 100%;
+    padding: 0 5px;
+}
+.main-logo > a > p{
+    line-height: auto;
+    text-align: center;
+    font-size:18px;
+}
+
+
+#wrapper{
+    width: 100%;
+}
+
+
+/*header start*/
+header{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+}
+#head-container{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+#head-container > h2{
+    width: 50%;
+    top: 30px;
+    left: 100px;
+    position: absolute;
+    font-weight: normal;
+}
+
+.btn-submit{
+    padding: 11px 18px;
+    background-color: #FF8300;
+    color: white;
+    line-height: 25px;
+    margin-top: -14px;
+    font-weight: bold;
+    float: right;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    border-radius: 3px;
+    margin-right: 0;
+}
+.btn-submit:hover{
+    opacity: 0.7;
+    color: white;
+}
+
+#head-container > nav{
+    width: 33%;
+    position: absolute;
+    top: 50px; 
+    right: 0;
+}
+
+#head-container > nav > ul > li{
+    list-style: none;
+    display: inline;
+}
+#head-container > nav > ul > li > i{
+    color: blue;
+}
+#head-container > nav > ul > li > a{
+    font-weight: bold;
+    color: blue;
+    padding: 5px;
+}
+
+/*search bar start */
+
+.search-bar{
+    width: 100%;
+    padding: 20px 0;
+    background-color: #B0CFDA;
+    border-radius: 5px;
+}
+
+form{
+    padding: 0 20px;
+}
+input{
+    line-height: 40px;
+    border-radius: 5px;
+    padding: 0 30px;
+    border: none;
+    margin: 0 5px;
+}
+.region-field{
+    background: url(../images/bgicon1.png) no-repeat #fff 3px 8px ;
+    width: 30%
+}
+.area-field{
+    background: url(../images/bgicon2.png) no-repeat #fff 3px 5px ;
+    width: 50%;
+}
+input:focus{
+    outline:none;
+}
+form > button{
+    line-height: 35px;
+    border-radius: 5px;
+    padding: 0 15px;
+    /* margin: 0 5px; */
+    width: 16%;
+    font-size: 20px;
+    color: white;
+    background-color: #2965be;
+    border: 3px solid white;
+
+}
+form > button:hover{
+    background-color:#2F73D8;
+    cursor: pointer;    
+}
+
+/*region wrapper start*/
+#region-wrapper{
+    width: 100%;
+    height: 1020px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    background-color: rgba(100,100,100,0.2)
+}
+
+.region-main-box > .close{
+    cursor: pointer;
+}
+.region-main-box > .close:focus #region-wrapper{
+    visibility: hidden;
+}
+.region-main-box{
+    width: 100%;
+    height: auto;
+    border: 1px solid blue;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 70px;
+    background-color: white; 
+}
+.region-main-box > form{
+    width: 35%;
+    background-color: #CAE0EB;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    margin:15px; 
+    padding: 8px 20px;
+}
+.region-main-box > i{
+    color: blue;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+
+}
+.region-main-box > form > input{
+    background: url(../images/bgicon1.png) no-repeat #fff 3px 8px ;
+    width: 97%;
+    height: 35px;
+    margin: 0 auto;
+}
+
+.region-popular-cities{
+    width: 97.7%;
+    height: 155px;
+    background-color: #F3F3F3;
+    border-bottom: 1px solid gray;
+    padding: 0 10px;
+}
+.region-popular-cities > p{
+    font-size: 11px;
+    line-height: 30px;
+}
+.region-link-box{
+    width: 100%;
+    height: auto;
+}
+.region-link-box > ul{
+    width: 16%;
+    float: left;
+}
+.region-link-box > ul > li{
+    list-style: none;
+    font-size: 11px;
+}
+.region-link-box > ul > li > a >span{
+    line-height: 20px;
+}
+
+.region-main-box > iframe{
+    width: 100%;
+    height: 280px;
+}
+
+
+/*body section start*/
+
+section{
+    width: 70%;
+    margin: 0 auto;
+}
+section > table{
+    width: 60%;
+    float: left;
+    bakcground: lightblue;
+}
+table tr{
+    width: 100%;
+}
+table tr td{
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+
+section > aside > .right-ads{
+    width: 35%;
+    height: auto;
+    background: white;
+    float: right;
+}
+.right-ads > a > img{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+
+/*second last footer (mobile ads)*/
+
+#mobile-app-add{
+    width: 100%;
+    clear: both;
+    background: url(../images/foot-bg.png) no-repeat #fff center 4px;
+    border-bottom: 3px solid #E2E2E2;
+}
+.mobile-app-box{
+    width: 70%;
+    margin: 0 auto;
+    height: 210px;
+    background: url(../images/mobile-bg.png) no-repeat center 40px;
+}
+
+.mobile-app-box > ul{
+    width: 55%;
+    height: 30px;
+    float: right;
+    margin-top: 125px;
+    display: block;
+}
+.mobile-app-box > ul > li{
+    list-style: none;
+    display: inline;
+    float: left;
+}
+.mobile-app-box > ul > li > a{
+    width: 150px;
+    height: 58px;
+    display: block;
+    margin: 0 5px;
+}
+.mobile-app-box > ul > li > .mob-ios{
+    background: url(https://olxpkstatic-a.akamaihd.net/c11771d-133/packed/font/2f0468ecca9c5159d2dda8749180baf4ce.svg) 0 0 no-repeat; background-size: contain;
+}
+.mobile-app-box > ul > li > .mob-android{
+    background: url(https://olxpkstatic-a.akamaihd.net/c11771d-133/packed/font/2f7729e59de3fdbb8e7dca3160783aec82.svg) 0 0 no-repeat; background-size: contain;  
+}
+.mobile-app-box > ul > li > .mob-win{
+    background: url(https://olxpkstatic-a.akamaihd.net/f8669f7-119/packed/font/2fbab436580ae5887ebbc411d318c1ecb5.svg) 0 0 no-repeat; background-size: contain;
+}
+
+
+/*footer start*/
+
+footer{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    padding: 35px 0;
+}
+
+.link-box{
+    width: 60%;
+    margin: 0 150px;
+}
+.foot-link{
+    width: 32%;
+    float: left;
+}
+.foot-link ul li{
+    list-style: none;
+    font-weight: normal;
+}
+.foot-link > ul > li > a > span{
+    color: black;
+    line-height: 20px;
+    font-size: 13px;
+}
+.foot-link > ul > li > a > span:hover{
+    color: orange;
+}
+.foot-link > ul > li > a > span:hover i{
+    color: white;
+}
+.i-content{
+    cursor: pointer;  
+    color: black;
+    border-bottom:1px solid gray; 
+}
+.i-content:hover .who-we-are{
+    visibility: visible;
+}
+.who-we-are{
+    clear: both;
+    visibility: hidden;
+    margin: auto;
+    padding: 25px 0;
+    width: 70%;
+}
+
+.foot-social-link{
+    width: 20%;
+    height: auto;
+    padding: 0 15px;
+    float: right;
+}
+.foot-social-link > p{
+    color: black;
+    margin-left: 18px;
+    font-size: 13px;
+    line-height: 40px;
+}
+.foot-social-link > ul > li{
+    list-style: none;
+    display: inline;
+    padding: 0 7px;
+    margin: auto;
+}
+.foot-social-link > ul > li > a > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.foot-social-link > ul > li > a{
+    /*background: url(../images/social icon.png) no-repeat;*/
+    
+    width: 50px;
+    height: 50px;
+}
+
+/*mobile body style*/
+
+#mobile-body{
+    border: 2px solid #EDEDED;
+    border-radius: 5px;
+    width: 70%;
+    margin: 0 auto;
+    height: auto; 
+}
+.mobile-app{
+    width: 70%;
+    margin: 0 auto;
+    height: 210px;
+    /*background: url(../images/mobile-bg.png) no-repeat center 40px;*/
+}
+#mobile-body > .side-bar{
+    width: 25%;
+    height: auto;
+    background-color: #F8F8F8;
+    padding: 20px;
+    float: left;
+}
+
+#mobile-body > .side-bar > nav > ul > li{
+    list-style: none;
+}
+#mobile-body > .side-bar > nav > ul > li > a{
+    line-height: 40px;
+}
+#mobile-body > .side-bar > nav > ul > li > h4{
+    letter-spacing: .01em;
+    font-weight: normal;
+}
+
+#mobile-body > section{
+    width: 68%;
+    float: left;
+    padding: 10px;
+}
+section > .mobile-top-bar{
+    background-color: #FBFAAE;
+    border-radius: 5px;
+    padding: 5px 35px;
+    background: url(../images/bgicon1.png) no-repeat #FBFAAE 8px 9px ;
+}
+section > .mobile-top-bar > p{
+    font-size: 12px;
+    line-height: 30px;
+    cursor: pointer;
+}
+section > .mobile-top-bar > p:hover span{
+    color: orange;
+}
+section > .mobile-top-bar > p > span{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+section > .mobile-title > img{
+    color: #007686;
+    width: auto;
+    padding: 35px 50px;
+    float: left;
+}
+section > .mobile-title > i{
+    color: #007686;
+    width: auto;
+    padding: 15px 50px;
+    float: left;
+}
+section > .mobile-title > .mobile-title-text{
+    width: 150px;
+    float: left;
+    padding: 20px 0 0;
+    font-size: 13px;
+}
+section > .mobile-title > .mobile-title-text > h1{
+    font-weight: normal;
+    line-height: 30px;
+}
+section > .mobile-title > .mobile-title-text > a > span{
+    line-height: 45px;
+}
+section > .mobile-title > hr{
+    clear: both;
+}
+
+.mobile-title > .mobile-catagory > ul{
+    margin-top: 15px;
+}
+.mobile-title > .mobile-catagory > ul > li{
+    list-style: none;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    font-size: 15px;
+    float: left;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.mobile-title > .mobile-catagory > ul > li:hover{
+    border: 2px solid #2F73D8;
+}
+
+.mobile-title > .mobile-catagory > ul > li > a > span{
+    line-height: 18px;
+}
+.active{
+    background: url("../images/btn fram.png") no-repeat -5px -2px;
+    background-size: 320px 55px;
+    /*border: 1px solid green;*/
+    width: 320px;
+    height: 50px;
+    margin: 0 -30px;
+}
+.active > a > span{
+    color: black;
+    line-height: 50px;
+    margin-left: 30px;
+    cursor: default;
+}
+
+#dropdown-catogory{
+    height: 30px;
+    border-radius: 5px;
+    padding: 0 30px;
+    cursor: pointer;
+    border: none;
+    margin: 0 5px;
+    float: left;
+    color: gray;   
+}
+#dropdown-catogory > option{
+    height: 30px;
+    color: gray;
+}
+.input{
+    width: 33%;
+    /*border: 1px solid black;*/
+    float: left;
+}
+.input > input{
+    width: 95%;
+    line-height: 30px;
+    border-radius: 5px;
+    padding: 0 30px;
+    /*border: 2px solid lightblue;*/
+    margin: 0 5px;
+    
+}
+.input > select{
+    width: 95%;
+    line-height: 30px;
+}
+.input > .search-field{
+    background: url(../images/bgicon2.png) no-repeat #fff 3px 5px ;
+    padding: 0 35px;
+}
+.input > p{
+    font-style: italic;
+    color: gray;
+}
+#try-filter{
+    position: absolute;
+    left: 115px;
+    top: 135px;
+}
+
+.left-banner{
+    position: absolute;
+    top: 250px;
+    left: 70px;
+}
+.right-banner{
+    position: absolute;
+    top: 250px;
+    right: 70px;
+}
+
+#catogory-box{
+    margin-top: 25px;
+}
+#catogory-box > .top-btn{
+    /*height: 200px;*/
+
+}
+#catogory-box > .top-btn > ul > li{
+    width: 100%;
+    border: 1px solid gray;
+    list-style: none;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+#catogory-box > .top-btn > ul > li:hover{
+    background-color: lightgray;
+}
+#catogory-box > .top-btn > ul > li > img{
+    float: left;
+    padding: 15px;
+}
+#catogory-box > .top-btn > ul > li > .left-side{
+    float: left;
+    padding: 0 25px;
+}
+#catogory-box > .top-btn > ul > li > .right-side{
+    float: right;
+    padding: 0 15px;
+}
+#catogory-box > .top-btn > ul > li > .right-side > img{
+    margin-top: 50px;
+}
+.form-container{
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 0;
+}
+.form-container tr td{
+    text-align: left;
+}
+.first{
+    width: 20%;
+    /*border: 1px solid red;*/
+    text-align: right;
+}
+.second{
+    width: 80%;
+}
+
+.form-container tr td input{
+    border: 1px solid lightgray;
+    height: 30px;
+}
+.form-container > form > tr:hover{
+    background-color: #FFFFAA;
+}
+
+.upload-photos h4{
+    text-align: right;
+    letter-spacing: -0.05em;
+    line-height: 20px;
+}
+.upload-photos p{
+    text-align: right;
+    font-size: 12px;
+    line-height: 10px;
+}
+.add-img-list ul{
+    width: 500px;
+}
+.add-img-list ul li{
+    list-style: none;
+    display: inline;
+    padding: 5px;
+}
+
+.fourth-box:hover{
+    background-color: #FFFFAA;
+}
+.first-box:hover{
+    background-color: #FFFFAA;
+}
